@@ -1,0 +1,627 @@
+header {
+  border-bottom: solid 3px #f9f9f9;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px 0px;
+}
+
+.fas {
+  display: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.margin-20 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+header img {
+  width: 220px;
+  padding-left: 20px;
+}
+
+nav a {
+  color: black;
+  font-weight: 600;
+}
+
+.connexion {
+  border: solid #2d96c8 2px;
+  background-color: white;
+  color: #2d96c8;
+}
+
+.inscription {
+  border: solid #2d96c8 2px;
+  background-color: #2d96c8;
+  color: white;
+  border-radius: 20px;
+}
+.big_pad {
+  padding: 20px 60px;
+}
+@media (max-width: 768px) {
+  .header-container nav {
+    display: none;
+  }
+
+  .fas {
+    display: block;
+    margin-right: 20px;
+    height: 14px;
+  }
+}
+
+/* EMOTION */
+.emotion {
+  background-image: url("img/hero.png");
+  background-position: top right 10%;
+  background-size: 45%;
+  background-repeat: no-repeat;
+}
+
+.mobile-background {
+  display: none;
+}
+
+.button-container {
+  display: flex;
+}
+
+.premium {
+  margin-left: 0;
+  margin-top: 30px;
+  background-color: #ef5466;
+  border: solid 2px #ef5466;
+  color: white;
+}
+
+.free {
+  margin-top: 30px;
+  background-color: white;
+  border: solid 2px black;
+  color: black;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* LANDING PAGE DEEZER */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+
+header img {
+  width: 150px;
+}
+
+nav {
+  /* border: 1px solid red; */
+  width: 450px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 17px;
+}
+
+nav a {
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+
+nav button {
+  width: 110px;
+  height: 35px;
+  /* font-size: 20px; */
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+#connexion {
+  border-color: #2d96c8;
+  background-color: white;
+  color: #2d96c8;
+}
+
+#inscription {
+  border: none;
+  background-color: #2d96c8;
+  color: white;
+}
+
+hr {
+  border: 1px solid #f9f9f9;
+}
+
+/* ACCUEIL */
+
+.accueil {
+  height: 370px;
+  background-image: url("img/hero.png");
+  background-position: top 0px right 80px;
+  background-size: 600px;
+  background-repeat: no-repeat;
+}
+
+.elements-accueil {
+  width: 500px;
+  padding-left: 270px;
+  padding-top: 50px;
+  text-align: left;
+}
+
+.elements-accueil h2 {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.elements-accueil h3 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #ef5466;
+}
+
+.accueil-boutons button {
+  width: 170px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 30px;
+  gap: 30px;
+}
+
+.accueil-boutons {
+  /* border: 1px solid red; */
+  width: 370px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.premium {
+  border: none;
+  background-color: #ef5466;
+  color: white;
+}
+
+#free {
+  border-color: #ef5466;
+  background-color: white;
+  color: #ef5466;
+}
+
+.deezer-cquoi {
+  display: flex;
+  background-color: #f9f9f9;
+}
+
+/* DEEZER C'EST QUOI */
+
+.deezer-cquoi {
+  padding: 70px 270px 40px 230px;
+  gap: 70px;
+}
+
+.deezer-cquoi img {
+  height: 600px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 45px;
+}
+
+.deezer-cquoi h1 {
+  font-size: 35px;
+  margin-bottom: 50px;
+  font-weight: 500;
+}
+
+.deezer-cquoi h4 {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.grid-item {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* TOUJOURS AVEC VOUS */
+
+.avec-vous {
+  background-color: #ef5466;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 50px 200px 50px 200px;
+  gap: 40px;
+}
+
+.icons {
+  width: 1300px;
+}
+.icons img {
+  width: 50px;
+  filter: invert(100%);
+  padding: 8px;
+}
+
+.avec-vous .text h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.avec-vous .text p {
+  line-height: 1.5;
+}
+
+/* PROFITEZ DE VOTRE MUSIQUE */
+
+.enjoy-music {
+  padding: 50px;
+}
+
+.enjoy-music h2 {
+  font-size: 35px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.reco {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reco p {
+  color: #8e8e94;
+  margin-bottom: 10px;
+  font-size: 11px;
+}
+
+.reco img {
+  width: 15px;
+  filter: brightness(1.4);
+}
+
+.abonnements {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  /* border: 1px solid orange; */
+}
+
+.détails {
+  /* border: 1px solid pink; */
+  margin: 15px;
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+
+.deez {
+  /* border: 1px solid red; */
+  padding: 20px;
+  margin: 10px;
+}
+
+.title-abo {
+  text-align: center;
+}
+
+.title-abo h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.title-abo .price {
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.liste {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.liste img {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+
+.yes {
+  font-weight: bold;
+  color: #8e8e94;
+}
+
+.no {
+  font-weight: lighter;
+  color: #cfcfcf;
+}
+
+.shadow {
+  box-shadow: 0px 0px 10px 4px #c2c2c7;
+}
+
+.deez-prem {
+  background-color: #2d96c8;
+  color: white;
+}
+
+.deez-prem .liste img {
+  filter: invert(100%);
+}
+
+.deez-prem .yes {
+  color: white;
+}
+
+.deez-prem .no {
+  color: white;
+}
+
+.choix {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.choix button {
+  width: 170px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.choix .prem1 {
+  background-color: gray;
+  margin-top: 35px;
+}
+
+.col-choix {
+  color: #2d96c8;
+  font-weight: bold;
+}
+
+.col-choix2 {
+  font-weight: bold;
+}
+
+.conditions {
+  /* border: 1px solid green; */
+  text-align: center;
+  font-size: 11px;
+  color: gray;
+  padding-left: 180px;
+  padding-right: 200px;
+  line-height: 1.4;
+  margin-top: 50px;
+}
+
+/* OFFRES DEEZER */
+
+.offres {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.abo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 30px 150px;
+}
+
+.offre-text h3 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 17px;
+}
+
+.red-word {
+  color: #ef5466;
+}
+
+.offre-p {
+  font-size: 20px;
+}
+
+.abo button {
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+  border-color: black;
+  background-color: #f9f9f9;
+  color: black;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.abo .petit {
+  width: 170px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 70px;
+}
+.download-app {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.download-app img {
+  width: 11%;
+}
+
+.infos-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  line-height: 2.5;
+  font-weight: 300;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.footer-title {
+  color: #616161;
+  font-weight: 500;
+}
+
+.last-bloc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: 90px;
+}
+
+.last-bloc img {
+  filter: invert(100%);
+}
+
+.logo-footer {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-footer img {
+  width: 20px;
+  height: 20px;
+}
+
+.deez-footer {
+  width: 200px;
+  height: 50px;
+}
+
+.credits {
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.credits p {
+  font-size: 13px;
+}
+
+.credits img {
+  width: 10px;
+  height: 10px;
+}
+
+.credits .gris {
+  color: gray;
+}
+
+/* ----- MEDIA QUERIES ------ */
+
+@media screen and (max-width: 1200px) {
+  /* ACCUEIL */
+  .accueil {
+    height: 310px;
+    background-size: 500px;
+  }
+
+  .elements-accueil {
+    width: 400px;
+    padding-left: 200px;
+    margin-right: 20px;
+  }
+
+  .elements-accueil h2 {
+    font-size: 30px;
+  }
+
+  .elements-accueil h3 {
+    font-size: 20px;
+  }
+
+  .accueil-boutons {
+    width: 330px;
+  }
+
+  .accueil-boutons button {
+    width: 150px;
+  }
+
+  /* DEEZER C'EST QUOI ? */
+  .deezer-cquoi {
+    padding: 70px 130px 40px 130px;
+  }
+
+  .avec-vous {
+    padding: 50px 100px 50px 100px;
+  }
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 1000000;
+}
+
+.gradient_bg {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 27%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.size {
+  height: 60vh;
+}
